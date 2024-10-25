@@ -1,0 +1,14 @@
+# Simple Addition Program
+
+## Overview
+This project includes a simple function that adds two integers. The program also provides a user interface for users to input values and see the result.
+
+## Files
+- `src/addition.cpp`: Contains the `add` function and user interface code.
+- `tests/test_addition.cpp`: Test harness for the `add` function.
+
+## How to Build and Run
+Use the Makefile to build the program and tests. See commands below.
+
+## Usage
+After building, run `./main` to start the addition program. To run tests, execute `./test`.
