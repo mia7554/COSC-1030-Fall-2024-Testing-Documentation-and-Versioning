@@ -1,0 +1,13 @@
+// src/addition.cpp
+#include <iostream>
+
+int add(int a, int b) {
+    return a + b;
+}
+
+void userInterface() {
+    int x, y;
+    std::cout << "Enter two numbers to add: ";
+    std::cin >> x >> y;
+    std::cout << "The sum is: " << add(x, y) << std::endl;
+}
