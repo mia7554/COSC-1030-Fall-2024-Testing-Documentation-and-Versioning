@@ -1,0 +1,15 @@
+# Makefile
+
+all: main test
+
+main: src/addition.cpp
+    g++ -o main src/addition.cpp
+
+test: tests/test_addition.cpp src/addition.cpp
+    g++ -o test tests/test_addition.cpp -I src
+
+run: main
+    ./main
+
+run_test: test
+    ./test
